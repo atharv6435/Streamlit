@@ -49,3 +49,7 @@ if company:
             st.plotly_chart(fig)
     else:
         st.error("The given company name does not exist")
+
+
+        # to run app = python -m  streamlit run app.py
+        # to close app = press Ctrl + C in terminal
